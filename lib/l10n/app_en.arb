@@ -1,0 +1,364 @@
+{
+  "@@locale": "en",
+  "appName": "Civic Connect",
+  "appTagline": "Report, Track, Resolve",
+  
+  "welcomeBack": "Welcome back!",
+  "welcome": "Welcome!",
+  "readyToMakeDifference": "Ready to make a difference?",
+  "hello": "Hello {name}!",
+  "@hello": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "home": "Home",
+  "myIssues": "My Issues",
+  "map": "Map",
+  "updates": "Updates",
+  "profile": "Profile",
+  "notifications": "Notifications",
+  
+  "yourImpact": "Your Impact",
+  "issuesReported": "Issues Reported",
+  "resolved": "Resolved",
+  "points": "Points",
+  
+  "quickActions": "Quick Actions",
+  "reportIssue": "Report Issue",
+  "takePhotoAndReport": "Take a photo and report",
+  "viewMap": "View Map",
+  "seeAllReportedIssues": "See all reported issues",
+  "myReports": "My Reports",
+  "trackYourComplaints": "Track your complaints",
+  "checkUpdates": "Check updates",
+  
+  "recentIssues": "Recent Issues",
+  "viewAll": "View All",
+  "noIssuesReported": "No issues reported yet",
+  "reportFirstIssue": "Report your first issue to get started!",
+  
+  "campaignsAndUpdates": "Campaigns & Updates",
+  "cleanlinessDrive": "Cleanliness Drive",
+  "joinCommunityCleanup": "Join us this Sunday for a community cleanup drive",
+  
+  "submitted": "Submitted",
+  "acknowledged": "Acknowledged",
+  "inProgress": "In Progress",
+  "rejected": "Rejected",
+  
+  "justNow": "Just now",
+  "minuteAgo": "{count} minute ago",
+  "minutesAgo": "{count} minutes ago",
+  "hourAgo": "{count} hour ago",
+  "hoursAgo": "{count} hours ago",
+  "dayAgo": "{count} day ago",
+  "daysAgo": "{count} days ago",
+  "weekAgo": "{count} week ago",
+  "weeksAgo": "{count} weeks ago",
+  "@minuteAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hourAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dayAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@weekAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@weeksAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  
+  "settings": "Settings",
+  "general": "General",
+  "language": "Language",
+  "darkMode": "Dark Mode",
+  "useDarkTheme": "Use dark theme throughout the app",
+  "receiveUpdates": "Receive updates about your reported issues",
+  "privacySecurity": "Privacy & Security",
+  "locationTracking": "Location Tracking",
+  "allowLocationAccess": "Allow location access for issue reporting",
+  "dataUsage": "Data Usage",
+  "manageDataSync": "Manage data synchronization preferences",
+  "accessibility": "Accessibility",
+  "voiceInput": "Voice Input",
+  "enableVoiceCommands": "Enable voice commands for reporting",
+  
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "email": "Email",
+  "password": "Password",
+  "name": "Name",
+  "phone": "Phone",
+  "signInWithGoogle": "Sign in with Google",
+  "continueAsGuest": "Continue as Guest",
+  "forgotPassword": "Forgot Password?",
+  "dontHaveAccount": "Don't have an account?",
+  "alreadyHaveAccount": "Already have an account?",
+  
+  "loading": "Loading...",
+  "error": "Error",
+  "success": "Success",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "share": "Share",
+  "retry": "Retry",
+  
+  "issueTitle": "Issue Title",
+  "issueDescription": "Issue Description",
+  "category": "Category",
+  "priority": "Priority",
+  "location": "Location",
+  "attachPhotos": "Attach Photos",
+  "submitIssue": "Submit Issue",
+  
+  "low": "Low",
+  "medium": "Medium",
+  "high": "High",
+  "urgent": "Urgent",
+  
+  "all": "All",
+  "filter": "Filter",
+  "search": "Search",
+  "sort": "Sort",
+  
+  "guestUser": "Guest User",
+  
+  "onboarding": "Onboarding",
+  "reportIssuesTitle": "Report Issues",
+  "reportIssuesDesc": "Easily report civic issues like potholes, broken street lights, and garbage problems with just a few taps.",
+  "trackProgressTitle": "Track Progress", 
+  "trackProgressDesc": "Monitor the status of your reported issues in real-time and get updates on resolution progress.",
+  "makeDifferenceTitle": "Make a Difference",
+  "makeDifferenceDesc": "Join thousands of citizens working together to improve our community and make our city better.",
+  "getStarted": "Get Started",
+  "skip": "Skip",
+  "next": "Next",
+  "previous": "Previous",
+  
+  "enterOTP": "Enter OTP",
+  "enterOTPSent": "Enter the OTP sent to {phone}",
+  "@enterOTPSent": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "verify": "Verify",
+  "resendOTP": "Resend OTP",
+  "otpVerification": "OTP Verification",
+  
+  "authenticationFailed": "Authentication failed: {error}",
+  "@authenticationFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "googleSignInFailed": "Google sign in failed: {error}",
+  "@googleSignInFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "guestModeFailed": "Guest mode failed: {error}",
+  "@guestModeFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "profileSettings": "Profile Settings",
+  "personalInfo": "Personal Information",
+  "accountSettings": "Account Settings",
+  "helpSupport": "Help & Support",
+  "aboutApp": "About App",
+  "logout": "Logout",
+  "editProfile": "Edit Profile",
+  "changePassword": "Change Password",
+  "deleteAccount": "Delete Account",
+  "version": "Version",
+  "termsConditions": "Terms & Conditions",
+  "privacyPolicy": "Privacy Policy",
+  "contactUs": "Contact Us",
+  "rateApp": "Rate App",
+  "shareApp": "Share App",
+  
+  "issueCategories": "Issue Categories",
+  "roadInfrastructure": "Road & Infrastructure",
+  "waterSupply": "Water Supply",
+  "electricity": "Electricity",
+  "wasteManagement": "Waste Management",
+  "publicSafety": "Public Safety",
+  "healthcare": "Healthcare",
+  "education": "Education",
+  "transport": "Transport",
+  "environment": "Environment",
+  "other": "Other",
+  
+  "selectCategory": "Select Category",
+  "selectPriority": "Select Priority",
+  "selectLocation": "Select Location",
+  "useCurrentLocation": "Use Current Location",
+  "selectFromMap": "Select from Map",
+  "addDescription": "Add Description",
+  "addPhotos": "Add Photos",
+  "addVideo": "Add Video",
+  "submitReport": "Submit Report",
+  "reportSubmitted": "Report Submitted Successfully",
+  "reportSubmittedDesc": "Your issue has been reported. You will receive updates on its progress.",
+  
+  "myReportsEmpty": "No reports found",
+  "myReportsEmptyDesc": "You haven't reported any issues yet. Start by reporting your first issue!",
+  "filterByStatus": "Filter by Status",
+  "filterByCategory": "Filter by Category",
+  "sortBy": "Sort By",
+  "sortByDate": "Sort by Date",
+  "sortByPriority": "Sort by Priority",
+  "sortByStatus": "Sort by Status",
+  
+  "mapView": "Map View",
+  "listView": "List View",
+  "nearbyIssues": "Nearby Issues",
+  "allIssues": "All Issues",
+  "myLocation": "My Location",
+  "issueDetails": "Issue Details",
+  "reportedBy": "Reported by",
+  "reportedOn": "Reported on",
+  "lastUpdated": "Last Updated",
+  "issueId": "Issue ID",
+  "upvote": "Upvote",
+  "downvote": "Downvote",
+  "addComment": "Add Comment",
+  "comments": "Comments",
+  "noComments": "No comments yet",
+  
+  "notifications": "Notifications",
+  "markAllRead": "Mark All Read",
+  "noNotifications": "No notifications",
+  "noNotificationsDesc": "You're all caught up! No new notifications.",
+  "issueUpdate": "Issue Update",
+  "systemNotification": "System Notification",
+  "newComment": "New Comment",
+  
+  "connectionError": "Connection Error",
+  "noInternetConnection": "No internet connection",
+  "tryAgain": "Try Again",
+  "somethingWentWrong": "Something went wrong",
+  "pleaseCheckConnection": "Please check your internet connection and try again",
+  
+  "permissionRequired": "Permission Required",
+  "cameraPermission": "Camera Permission",
+  "locationPermission": "Location Permission",
+  "storagePermission": "Storage Permission",
+  "cameraPermissionDesc": "This app needs camera access to take photos of issues",
+  "locationPermissionDesc": "This app needs location access to report issues accurately",
+  "storagePermissionDesc": "This app needs storage access to save photos",
+  "grantPermission": "Grant Permission",
+  "openSettings": "Open Settings",
+  
+  "confirmDelete": "Confirm Delete",
+  "deleteIssueConfirm": "Are you sure you want to delete this issue?",
+  "deleteAccountConfirm": "Are you sure you want to delete your account? This action cannot be undone.",
+  "confirmLogout": "Confirm Logout",
+  "logoutConfirm": "Are you sure you want to logout?",
+  
+  "updateAvailable": "Update Available",
+  "updateAvailableDesc": "A new version of the app is available. Please update to get the latest features.",
+  "updateNow": "Update Now",
+  "updateLater": "Update Later",
+  
+  "maintenance": "Under Maintenance",
+  "maintenanceDesc": "The app is currently under maintenance. Please try again later.",
+  
+  "dataSync": "Data Sync",
+  "syncInProgress": "Syncing data...",
+  "syncComplete": "Sync complete",
+  "syncFailed": "Sync failed",
+  "lastSynced": "Last synced: {time}",
+  "@lastSynced": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "voiceRecording": "Voice Recording",
+  "startRecording": "Start Recording",
+  "stopRecording": "Stop Recording",
+  "playRecording": "Play Recording",
+  "deleteRecording": "Delete Recording",
+  "recordingTooShort": "Recording too short",
+  "recordingTooLong": "Recording too long",
+  
+  "imageProcessing": "Processing image...",
+  "uploadingImages": "Uploading images...",
+  "uploadComplete": "Upload complete",
+  "uploadFailed": "Upload failed",
+  
+  "validationErrors": "Validation Errors",
+  "fieldRequired": "This field is required",
+  "invalidEmail": "Invalid email address",
+  "invalidPhone": "Invalid phone number",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "titleTooShort": "Title must be at least 5 characters",
+  "descriptionTooShort": "Description must be at least 10 characters"
+}
