@@ -43,3 +43,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore markdown files except README.md
+*.md
+*.MD
+!README.md
+!readme.md
+!README.MD
+
+# Ignore credentials and sensitive files
+google-services.json
+GoogleService-Info.plist
+.env
+firebase_options.dart
